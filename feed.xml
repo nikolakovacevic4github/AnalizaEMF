@@ -3,12 +3,73 @@
     <title>Analiza EMF</title>
     <link href="https://nikolakovacevic4github.github.io/AnalizaEMF/feed.xml" rel="self" />
     <link href="https://nikolakovacevic4github.github.io/AnalizaEMF" />
-    <updated>2019-08-21T20:47:38+02:00</updated>
+    <updated>2019-08-21T21:16:42+02:00</updated>
     <author>
         <name>Nikola Kovačević</name>
     </author>
     <id>https://nikolakovacevic4github.github.io/AnalizaEMF</id>
 
+    <entry>
+        <title>Predikcija EMF</title>
+        <author>
+            <name>Nikola Kovačević</name>
+        </author>
+        <link href="https://nikolakovacevic4github.github.io/AnalizaEMF/predikcija-emf.html"/>
+        <id>https://nikolakovacevic4github.github.io/AnalizaEMF/predikcija-emf.html</id>
+
+        <updated>2019-08-21T21:11:31+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Na osnovu početne pretpostavke zavisnosti nivoa elektromagnetskog polja od vremenskih uslova, kreiran je model predikcije koji uzima u obzir vremenske temperaturu, vlažnost vazduha i udaljenost od lokacije merenja. Grafički prikaz prostorne predikcije nivoa elektromagnetskog polja vidljiv je na donjoj slici. Tamnija boja se odnosi na veću&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Na osnovu početne pretpostavke zavisnosti nivoa elektromagnetskog polja od vremenskih uslova, kreiran je model predikcije koji uzima u obzir vremenske temperaturu, vlažnost vazduha i udaljenost od lokacije merenja. Grafički prikaz prostorne predikcije nivoa elektromagnetskog polja vidljiv je na donjoj slici. Tamnija boja se odnosi na veću vrednost. Svaka ćelija grida na mapi je veličine 50x50m i nosi informaciju o usrednjenoj vrednosti predikcija dnevnih srednjih vrednosti iz perioda za koji su preuzeti podaci (2018-2019. tj. preko 500 dana merenja). Detalji proračuna predikcije se mogu naći na github <a href="https://github.com/nikolakovacevic4github/ranalizaempolja">adresi</a>. Iz pridružene legende može se zaključiti da se sve vrednosti na prikazanom području kreću u intervalu od 1.3861 [V/m] (najsvetlija) do 1.4004 [V/m] (najtamnija), što predstavlja veoma malu varijaciju od ispod 0.02 [V/m], te prikazuje uravnoteženost prostorne predikcije srednjih dnevnih vrednosti nivoa EMF prema odabranom modelu.</p>
+<figure class="post__image post__image" ><img src="https://nikolakovacevic4github.github.io/AnalizaEMF/media/posts/4/EMFpredikcija.jpg" alt="Prostorna predikcija EMF - Beograd" width="1713" height="1135">
+<figcaption >Prostorna predikcija EMF - Beograd</figcaption>
+</figure>
+<p>Treba imati u vidu da za frekvencijski opseg senzora u sistemu EMF RATEL (od 100 kHz do 7 GHz) minimalni referentni granični nivo električnog polja iznosi: Eref. minimalno = 11 V/m, dok je maksimalni referentni granični nivo: Eref. maksimalno = 34,8 V/m.</p>
+<p>Više detalja o procesu računanja predikcije može se naći u nastavku.</p>
+<h2 id="mcetoc_1diqp9k0o0">Područje predikcije</h2>
+<p>Sagledavanjem i analizom preuzetih prostornih podataka, utvrđeno da je najveći broj stanica grupisan na užem području Beograda i da je veliki deo područja Srbije nepokriven merenjima. Stoga je za područje predikcije odabrana teritorija gradskih opština Beograda.</p>
+<p>Nakon analize, eliminacija merenja za koje je statistički utvrđeno da ne bi trebalo da se nalaze u skupu merenja, agregacija merenja (električno polje, temperature, vlažnost) za svaku poziciju stanice sa vremenskom rezolucijom od jednog dana (jedna stanica, jedno osrednjeno merenje za svaki od atributa - prediktora). </p>
+<h2 id="mcetoc_1diqp9k0o1">Model</h2>
+<p id="mcetoc_1diqpahhv2">Prilikom modeliranja jačine elektromagnetskog (električnog) polja primenjena je metoda linearne regresije pri čemu su prediktori:</p>
+<ul>
+<li>Temperatura i</li>
+<li>Vlažnost</li>
+</ul>
+<p>Ovi podaci su mereni na samoj lokaciji stanice i preuzeti su zajedno sa ostalim podacima merenja električnog polja.</p>
+<p>Modeliranje uz prethodnu analizu podataka izvršeno je u programskom jeziku R.<br> Prostorno modeliranje (interpolacija) prediktora izvršena je primenom IDW (Inverse distance weighting) metode. Prostorno modeliranje električnog polja izvršeno je primenom metode prostorne linearne regresije. Prediktovana je vrednost električnog polja za svaki od datuma, a na osnovu skupa aktivnih stanica za taj datum.</p>
+<p>Analizom rezultata prethodne primene nekoliko metoda predikcije: “Random Forest”, kriging, linearna regresija, IDW metoda, moglo se zaključiti da dobijeni rezultati prediktora nisu statistički gledano dovoljno dobro opisivali model (npr. koeficijent determinacija modela primenom regresije bio je 0.1) pa je dalja predikcija prediktora ipak izvršena osrednjavanjem vrednosti prediktora primenom težinske funkcije rastojanja (IDW metoda) i kao tako dobijeni prediktori su se dalje uključili u predikciju polja.<br> U linearni regresioni model predikcije električnog polja uključeni su temperature i vlažnost kao dva prediktora od kojih se očekivalo da opišu prostorni model.</p>
+<p>Računanje prethodno navedenih modela kao i njihova analiza dokumentovana je kroz R skript, dostupan na <a href="https://github.com/nikolakovacevic4github/EMF-R-analiza">github repositorijumu</a>, koji može da posluži kao dobra osnova za dalje upuštanje u kompleksnije modele prostorno-vremenske analize.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>O Projektu</title>
+        <author>
+            <name>Nikola Kovačević</name>
+        </author>
+        <link href="https://nikolakovacevic4github.github.io/AnalizaEMF/o-projektu.html"/>
+        <id>https://nikolakovacevic4github.github.io/AnalizaEMF/o-projektu.html</id>
+
+        <updated>2019-08-21T21:13:29+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Portal Analiza EMF je pobedničko rešenje na Izazovu otvorenih podataka – Informisanje građana o nivoima i promenama elektromagnetskog polja koji je objavio Program Ujedinjenih nacija za razvoj (UNDP) u partnerstvu Kancelarije za informacione tehnologije i elektronsku upravu. Portal je uspostavio Nikola Kovačević – autor pobedničke ideje. Aplikacija EMF&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Portal <strong>Analiza EMF</strong> je pobedničko rešenje na Izazovu otvorenih podataka – Informisanje građana o nivoima i promenama elektromagnetskog polja koji je objavio <a href="http://www.rs.undp.org/content/serbia/sr/home.html">Program Ujedinjenih nacija za razvoj (UNDP)</a> u partnerstvu <a href="https://www.ite.gov.rs/">Kancelarije za informacione tehnologije i elektronsku upravu</a>. Portal je uspostavio Nikola Kovačević – autor pobedničke ideje.</p>
+<p>Aplikacija EMF GIS je realizovana postavkom i prilagođenjem MapStore i GeoServer GIS platformi od strane autora.</p>
+<p>Pored same aplikacije, vršena je i statistička analiza u programskom jeziku R u cilju dobijanja modela prostorne predikcije interpolacije jačine električnog polja. Detalji predikcije su dostupni na github repositorijumu (<a href="https://github.com/nikolakovacevic4github/EMF-R-analiza">https://github.com/nikolakovacevic4github/EMF-R-analiza</a>).</p>
+<p>Podaci o merenjima električnog polja koji su se koristili na projektu su preuzeti sa portala otvorenih podataka gde ih je otvorio RATEL. Pored njih, korišćeni su vektorski i rasterski geopodaci iz otvorenih izvora.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Analiza EMF - aplikacija</title>
         <author>
