@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Analiza EMF",
+    "description": "",
+    "home_page_url": "https://nikolakovacevic4github.github.io/AnalizaEMF",
+    "feed_url": "https://nikolakovacevic4github.github.io/AnalizaEMF/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Nikola Kovačević"
+    },
+    "items": [
+        {
+            "id": "https://nikolakovacevic4github.github.io/AnalizaEMF/analiza-nivoa-emf.html",
+            "url": "https://nikolakovacevic4github.github.io/AnalizaEMF/analiza-nivoa-emf.html",
+            "title": "Analiza nivoa EMF",
+            "summary": "Portal Analiza nivoa EMF (EM polja) nudi alate za prostornu i atributsku analizu vrednosti električnog polja u Srbiji dobijenih iz merenja koje je sproveo RATEL i omogućio da budu javno dostupni putem portala otvorenih podataka. Portal je razvijen u okviru Izazova otvorenih podataka – Informisanje&hellip;",
+            "content_html": "<p>Portal <strong>Analiza nivoa EMF</strong> (EM polja) nudi alate za prostornu i atributsku analizu vrednosti električnog polja u Srbiji dobijenih iz merenja koje je sproveo RATEL i omogućio da budu javno dostupni putem portala otvorenih podataka. Portal je razvijen u okviru <a href=\"http://www.rs.undp.org/content/serbia/sr/home/presscenter/articles/2019/odre_eni-pobednici--izazova--otvorenih-podataka.html\">Izazova otvorenih podataka</a> – Informisanje građana o nivoima i promenama elektromagnetskog polja.</p>",
+            "author": {
+                "name": "Nikola Kovačević"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-08-21T19:50:48+02:00",
+            "date_modified": "2019-08-21T19:53:02+02:00"
+        }
+    ]
+}
