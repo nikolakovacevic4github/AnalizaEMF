@@ -3,7 +3,7 @@
     <title>Analiza EMF</title>
     <link href="https://nikolakovacevic4github.github.io/AnalizaEMF/feed.xml" rel="self" />
     <link href="https://nikolakovacevic4github.github.io/AnalizaEMF" />
-    <updated>2019-08-23T14:29:25+02:00</updated>
+    <updated>2019-08-23T19:25:48+02:00</updated>
     <author>
         <name>Nikola Kovačević</name>
     </author>
@@ -64,16 +64,14 @@
         <link href="https://nikolakovacevic4github.github.io/AnalizaEMF/o-projektu.html"/>
         <id>https://nikolakovacevic4github.github.io/AnalizaEMF/o-projektu.html</id>
 
-        <updated>2019-08-23T10:44:52+02:00</updated>
+        <updated>2019-08-23T16:21:01+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://nikolakovacevic4github.github.io/AnalizaEMF/media/posts/3/izazov2.jpg" alt="Pobednici izazova otvorenih podataka" />
                     Portal Analiza EMF je pobedničko rešenje na Izazovu otvorenih podataka – Informisanje građana o nivoima i promenama elektromagnetskog polja koji je objavio Program Ujedinjenih nacija za razvoj (UNDP) u partnerstvu Kancelarije za informacione tehnologije i elektronsku upravu. Portal je napravio Nikola Kovačević (autor pobedničke ideje). Aplikacija EMF GIS je&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://nikolakovacevic4github.github.io/AnalizaEMF/media/posts/3/izazov2.jpg" alt="Pobednici izazova otvorenih podataka" />
                 <p>Portal <strong>Analiza EMF</strong> je pobedničko rešenje na Izazovu otvorenih podataka – Informisanje građana o nivoima i promenama elektromagnetskog polja koji je objavio <a href="http://www.rs.undp.org/content/serbia/sr/home.html">Program Ujedinjenih nacija za razvoj (UNDP)</a> u partnerstvu <a href="https://www.ite.gov.rs/">Kancelarije za informacione tehnologije i elektronsku upravu</a>. Portal je napravio <a href="https://www.linkedin.com/in/nikolazkovacevic?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHQXBW1sVTDalE7QW%2FeOXuA%3D%3D\">Nikola Kovačević</a>  (autor pobedničke ideje).</p>
 <p>Aplikacija EMF GIS je realizovana postavkom i prilagođenjem MapStore i GeoServer GIS platformi od strane autora.</p>
 <p>Pored same aplikacije, vršena je i statistička analiza u programskom jeziku R u cilju dobijanja modela prostorne predikcije interpolacije jačine električnog polja. Detalji predikcije su dostupni na github repositorijumu (<a href="https://github.com/nikolakovacevic4github/EMF-R-analiza">https://github.com/nikolakovacevic4github/EMF-R-analiza</a>).</p>
@@ -89,7 +87,7 @@
         <link href="https://nikolakovacevic4github.github.io/AnalizaEMF/analiza-emf-aplikacija.html"/>
         <id>https://nikolakovacevic4github.github.io/AnalizaEMF/analiza-emf-aplikacija.html</id>
 
-        <updated>2019-08-23T14:29:17+02:00</updated>
+        <updated>2019-08-23T16:22:50+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://nikolakovacevic4github.github.io/AnalizaEMF/media/posts/2/EMF1.jpg" alt="Aplikacija za analizu" />
@@ -144,24 +142,22 @@
         <link href="https://nikolakovacevic4github.github.io/AnalizaEMF/analiza-nivoa-emf.html"/>
         <id>https://nikolakovacevic4github.github.io/AnalizaEMF/analiza-nivoa-emf.html</id>
 
-        <updated>2019-08-23T10:52:51+02:00</updated>
+        <updated>2019-08-23T19:25:40+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://nikolakovacevic4github.github.io/AnalizaEMF/media/posts/1/EMFheader.jpg" alt="" />
-                    Portal Analiza nivoa EMF (EM polja) nudi alate za prostornu i atributsku analizu vrednosti električnog polja u Srbiji dobijenih iz merenja koje je sproveo RATEL i omogućio da budu javno dostupni putem nacionalnog Portala otvorenih podataka. Portal je razvijen u okviru Izazova otvorenih podataka –&hellip;
+                    Portal Analiza nivoa EMF (electromagnetic field - elektromagnetsko polje) nudi alate za prostornu i atributsku analizu vrednosti elektromagnetskog polja u Srbiji dobijenih iz merenja koje je sproveo RATEL i omogućio da budu javno dostupni putem nacionalnog Portala otvorenih podataka. Razvijen je u okviru Izazova otvorenih podataka – Informisanje građana&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://nikolakovacevic4github.github.io/AnalizaEMF/media/posts/1/EMFheader.jpg" alt="" />
-                <p>Portal <strong><a href="http://emf.mslabs.in.rs:8082/ms2emf">Analiza nivoa EMF</a></strong> (EM polja) nudi alate za prostornu i atributsku analizu vrednosti električnog polja u Srbiji dobijenih iz merenja koje je sproveo <a href="https://www.ratel.rs/">RATEL </a>i omogućio da budu javno dostupni putem <a href="https://data.gov.rs/sr/">nacionalnog Portala otvorenih podataka</a>. Portal je razvijen u okviru <a href="http://www.rs.undp.org/content/serbia/sr/home/presscenter/articles/2019/odre_eni-pobednici--izazova--otvorenih-podataka.html">Izazova otvorenih podataka</a> – Informisanje građana o nivoima i promenama elektromagnetskog polja.</p>
+                <p>Portal <strong><a href="http://emf.mslabs.in.rs:8082/ms2emf">Analiza nivoa EMF</a></strong> (<em><strong>e</strong>lectro<strong>m</strong>agnetic <strong>f</strong>ield</em><strong> </strong>- elektromagnetsko polje) nudi alate za prostornu i atributsku analizu vrednosti elektromagnetskog polja u Srbiji dobijenih iz merenja koje je sproveo <a href="https://www.ratel.rs/">RATEL </a>i omogućio da budu javno dostupni putem <a href="https://data.gov.rs/sr/">nacionalnog Portala otvorenih podataka</a>. Razvijen je u okviru <a href="http://www.rs.undp.org/content/serbia/sr/home/presscenter/articles/2019/odre_eni-pobednici--izazova--otvorenih-podataka.html">Izazova otvorenih podataka</a> – Informisanje građana o nivoima i promenama elektromagnetskog polja.</p>
 <p>Izazov je imao za cilj unapređenje rada javne uprave na osnovu otvorenih podataka javnih institucija i organizacija koji su dostupni na nacionalnom Portalu otvorenih podataka. </p>
-<p>Portal se zasniva na korišćenju aktuelnih veb GIS tehnologija otvorenog koda sa svojim funkcionalnostima i postavci aplikacije nad otvorenim podacima. Sama aplikacija ima za cilj da omogući dalju obradu i kreativnu upotrebu otvorenih podataka. </p>
-<p>Funkcionalnosti koje već postoje na stranici <a href="http://emf.ratel.rs/eng/rezultati-merenja/">http://emf.ratel.rs/eng/rezultati-merenja/</a> donose u značajnoj meri odgovor na postavlјeni izazov (Informisanje građana o nivoima i promenama elektromagnetskog polja). Portal <strong>Analiza nivoa EMF </strong>pruža komplementarne funkcionalnosti postojećem RATEL sajtu u cilјu kvalitetnijeg informisanja javnosti. Portal omogućava analiziranje i upoređivanje dostupnih podataka merenja nivoa EMF sa proširivim spektrom geoprostornih podataka.</p>
-<p>Portal je zasnovan na veb tehnologijama stoga omogućuje da funkcionalnosti za analizu, vizuelizaciju i deljenje, budu dostupne veoma širokom krugu korisnika. Kao primarni korisnici predviđeni su građani Republike Srbije.</p>
-<p>Portal je postavlјen na serveru sa otvorenim pristupom,  pa je pristup i korišćenje aplikacije moguće za sve zainteresovane strane, dok administratori sistema mogu da odrede nivo funkcionalnosti koji je dostupan neregistrovanim i registrovanim korisnicima.</p>
-<p>Otvoreni podaci koji su korišćeni kao izvor ažuriraju se jednom mesečno, pokrivaju period od kraja 2017. godine do danas i dobijeni su iz merenja gde je merna nesigurnost senzorskih elemenata iznosi 22 %. Trenutno su obuhvaćene 32 merne stanice, raspoređene na lokacijama širom Srbije u zonama povećane osetljivosti (pokrivaju one prostore u kojima veći broj ljudi boravi u dužim vremenskim intervalima, a posebno zone u kojima se nalaze obdaništa, škole, fakulteti, bolnice).</p>
-<p>O pojmu elektromagneskog polja, njegovoj koristi i uticaju na čoveka i metodologiji merenja moguće je se informisati na zvaničnom sajtu RATEL-a na adresi  <a href="http://emf.ratel.rs/lat/em-polja/">http://emf.ratel.rs/lat/em-polja/</a> .</p>
+<p>Portal<strong> Analiza nivoa EMF</strong> se zasniva na korišćenju aktuelnih veb GIS tehnologija otvorenog koda sa svojim funkcionalnostima i postavci aplikacije nad otvorenim podacima. Sama aplikacija ima za cilj da omogući dalju obradu i kreativnu upotrebu otvorenih podataka. Moguće je vršiti poređenje dostupnih podataka merenja nivoa EMF sa proširivim spektrom geoprostornih podataka. </p>
+<p>Portal <strong>Analiza nivoa EMF</strong> je zasnovan na veb tehnologijama stoga omogućuje da funkcionalnosti za analizu, vizuelizaciju i deljenje, budu dostupne širokom krugu korisnika. Veb lokacija je na serveru sa otvorenim pristupom, pa je pristup i korišćenje aplikacije moguće za sve zainteresovane strane, dok administratori sistema mogu da odrede nivo funkcionalnosti koji je dostupan neregistrovanim i registrovanim korisnicima.</p>
+<p>Otvoreni podaci koji su korišćeni kao izvor ažuriraju se jednom mesečno, pokrivaju period od kraja 2017. godine do danas i dobijeni su iz merenja gde je merna nesigurnost senzorskih elemenata iznosi 22%. Trenutno su obuhvaćene 32 merne stanice, raspoređene na lokacijama širom Srbije u zonama povećane osetljivosti (pokrivaju one prostore u kojima veći broj ljudi boravi u dužim vremenskim intervalima, a posebno zone u kojima se nalaze obdaništa, škole, fakulteti, bolnice).</p>
+<p>O pojmu elektromagnetskog polja, njegovoj koristi i uticaju na čoveka i metodologiji merenja može se informisati na zvaničnom sajtu RATEL-a na adresi  <a href="http://emf.ratel.rs/lat/em-polja/">http://emf.ratel.rs/lat/em-polja/</a> .</p>
 <p> </p>
 <p> </p>
             ]]>
