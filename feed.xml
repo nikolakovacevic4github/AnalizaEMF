@@ -3,7 +3,7 @@
     <title>Analiza EMF</title>
     <link href="https://nikolakovacevic4github.github.io/AnalizaEMF/feed.xml" rel="self" />
     <link href="https://nikolakovacevic4github.github.io/AnalizaEMF" />
-    <updated>2019-08-23T19:25:48+02:00</updated>
+    <updated>2019-08-23T19:40:56+02:00</updated>
     <author>
         <name>Nikola Kovačević</name>
     </author>
@@ -142,7 +142,7 @@
         <link href="https://nikolakovacevic4github.github.io/AnalizaEMF/analiza-nivoa-emf.html"/>
         <id>https://nikolakovacevic4github.github.io/AnalizaEMF/analiza-nivoa-emf.html</id>
 
-        <updated>2019-08-23T19:25:40+02:00</updated>
+        <updated>2019-08-23T19:40:48+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://nikolakovacevic4github.github.io/AnalizaEMF/media/posts/1/EMFheader.jpg" alt="" />
@@ -153,9 +153,7 @@
             <![CDATA[
                     <img src="https://nikolakovacevic4github.github.io/AnalizaEMF/media/posts/1/EMFheader.jpg" alt="" />
                 <p>Portal <strong><a href="http://emf.mslabs.in.rs:8082/ms2emf">Analiza nivoa EMF</a></strong> (<em><strong>e</strong>lectro<strong>m</strong>agnetic <strong>f</strong>ield</em><strong> </strong>- elektromagnetsko polje) nudi alate za prostornu i atributsku analizu vrednosti elektromagnetskog polja u Srbiji dobijenih iz merenja koje je sproveo <a href="https://www.ratel.rs/">RATEL </a>i omogućio da budu javno dostupni putem <a href="https://data.gov.rs/sr/">nacionalnog Portala otvorenih podataka</a>. Razvijen je u okviru <a href="http://www.rs.undp.org/content/serbia/sr/home/presscenter/articles/2019/odre_eni-pobednici--izazova--otvorenih-podataka.html">Izazova otvorenih podataka</a> – Informisanje građana o nivoima i promenama elektromagnetskog polja.</p>
-<p>Izazov je imao za cilj unapređenje rada javne uprave na osnovu otvorenih podataka javnih institucija i organizacija koji su dostupni na nacionalnom Portalu otvorenih podataka. </p>
-<p>Portal<strong> Analiza nivoa EMF</strong> se zasniva na korišćenju aktuelnih veb GIS tehnologija otvorenog koda sa svojim funkcionalnostima i postavci aplikacije nad otvorenim podacima. Sama aplikacija ima za cilj da omogući dalju obradu i kreativnu upotrebu otvorenih podataka. Moguće je vršiti poređenje dostupnih podataka merenja nivoa EMF sa proširivim spektrom geoprostornih podataka. </p>
-<p>Portal <strong>Analiza nivoa EMF</strong> je zasnovan na veb tehnologijama stoga omogućuje da funkcionalnosti za analizu, vizuelizaciju i deljenje, budu dostupne širokom krugu korisnika. Veb lokacija je na serveru sa otvorenim pristupom, pa je pristup i korišćenje aplikacije moguće za sve zainteresovane strane, dok administratori sistema mogu da odrede nivo funkcionalnosti koji je dostupan neregistrovanim i registrovanim korisnicima.</p>
+<p>Portal<strong> Analiza nivoa EMF</strong> se zasniva na korišćenju aktuelnih veb GIS tehnologija otvorenog koda sa svojim funkcionalnostima i postavci aplikacije nad otvorenim podacima. Sama aplikacija ima za cilj da omogući dalju obradu i kreativnu upotrebu otvorenih podataka. Moguće je vršiti poređenje dostupnih podataka merenja nivoa EMF sa proširivim spektrom geoprostornih podataka. Osnovno korišćenje aplikacije moguće je za sve zainteresovane strane, dok registrovani korisnici imaju pristup dodatnim sadržajima i funkcionalnostima. </p>
 <p>Otvoreni podaci koji su korišćeni kao izvor ažuriraju se jednom mesečno, pokrivaju period od kraja 2017. godine do danas i dobijeni su iz merenja gde je merna nesigurnost senzorskih elemenata iznosi 22%. Trenutno su obuhvaćene 32 merne stanice, raspoređene na lokacijama širom Srbije u zonama povećane osetljivosti (pokrivaju one prostore u kojima veći broj ljudi boravi u dužim vremenskim intervalima, a posebno zone u kojima se nalaze obdaništa, škole, fakulteti, bolnice).</p>
 <p>O pojmu elektromagnetskog polja, njegovoj koristi i uticaju na čoveka i metodologiji merenja može se informisati na zvaničnom sajtu RATEL-a na adresi  <a href="http://emf.ratel.rs/lat/em-polja/">http://emf.ratel.rs/lat/em-polja/</a> .</p>
 <p> </p>
