@@ -3,7 +3,7 @@
     <title>Analiza EMF</title>
     <link href="https://nikolakovacevic4github.github.io/AnalizaEMF/feed.xml" rel="self" />
     <link href="https://nikolakovacevic4github.github.io/AnalizaEMF" />
-    <updated>2019-08-24T10:16:41+02:00</updated>
+    <updated>2019-08-24T11:03:40+02:00</updated>
     <author>
         <name>Nikola Kovačević</name>
     </author>
@@ -87,18 +87,18 @@
         <link href="https://nikolakovacevic4github.github.io/AnalizaEMF/analiza-emf-aplikacija.html"/>
         <id>https://nikolakovacevic4github.github.io/AnalizaEMF/analiza-emf-aplikacija.html</id>
 
-        <updated>2019-08-24T10:16:34+02:00</updated>
+        <updated>2019-08-24T11:03:32+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://nikolakovacevic4github.github.io/AnalizaEMF/media/posts/2/EMF1.jpg" alt="Aplikacija za analizu" />
-                    Analiza nivoa EMF je veb aplikacija za uporednu prostorno-vremensku analizu podataka o izmerenim vrednostima elektromagnetskog polja. Aplikacija ima alate za efikasan način za vizuelizaciju, mapiranje, pretraživanje i filtriranje preuzetih podataka. Karakteristične postavke alata i podataka se mogu podeliti na interaktivne karte i kontrolne ploče (dashboard).
+                    Analiza nivoa EMF je veb aplikacija za uporednu prostorno-vremensku analizu podataka o izmerenim vrednostima elektromagnetskog polja. Aplikacija ima alate za efikasan način za vizuelizaciju, mapiranje, pretraživanje i filtriranje preuzetih podataka. Karakteristične postavke alata i podataka mogu se podeliti na interaktivne karte i kontrolne ploče (dashboard).
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://nikolakovacevic4github.github.io/AnalizaEMF/media/posts/2/EMF1.jpg" alt="Aplikacija za analizu" />
                 <p><a href="http://emf.mslabs.in.rs:8082/ms2emf/">Analiza nivoa EMF</a> je veb aplikacija za uporednu prostorno-vremensku analizu podataka o izmerenim vrednostima elektromagnetskog polja. Aplikacija ima alate za efikasan način za vizuelizaciju, mapiranje, pretraživanje i filtriranje preuzetih podataka.</p>
-<p>Karakteristične postavke alata i podataka se mogu podeliti na interaktivne<strong> karte</strong> i <strong>kontrolne ploče</strong> (dashboard). Dok <strong>karte</strong> predstavljaju monolitnu celinu sa centralnom mapom na kojoj se nalaze alatke sa naprednim funkcionalnostima, <strong>kontrolne ploče</strong> imaju mogućnost  jednostavnijeg kombinovanja više celina u uporednom prikazu.</p>
+<p>Karakteristične postavke alata i podataka mogu se podeliti na interaktivne<strong> karte</strong> i <strong>kontrolne ploče</strong> (dashboard). Dok <strong>karte</strong> predstavljaju monolitnu celinu sa centralnom mapom na kojoj se nalaze alatke sa naprednim funkcionalnostima, <strong>kontrolne ploče</strong> imaju mogućnost  jednostavnijeg kombinovanja više celina u uporednom prikazu.</p>
 <h2 id="mcetoc_1diqmi4nk0">Kontrolne ploče</h2>
 <p>Na sledećoj slici vidi se kontrolna ploča: <em>Lokacijski filtriran grafikon maksimalnih dnevnih vrednosti </em>(Uporedni vremenski periodi za 2018. i 2019.) koja je dostupna na <a href="http://emf.mslabs.in.rs:8082/ms2emf/#/dashboard/60">adresi</a>. Pomeranjem karte može se odabrati željeni lokalitet od interesa. Grafikoni su povezani sa prikazom karte i određuju maksimalne dnevne vrednosti sa mernih stanica vidljivih na mapi. Na konkretnom prikazu kontrolne ploče može se uvideti da su maksimalne dnevne vrednosti na teritoriji Beograda imala manje oscilacija tokom 2019. nego 2018.</p>
 <figure class="post__image post__image" ><img src="https://nikolakovacevic4github.github.io/AnalizaEMF/media/posts/2/EMF1.jpg" alt="Lokacijski filtriran grafikon maksimalnih dnevnih merenja " width="1815" height="804">
